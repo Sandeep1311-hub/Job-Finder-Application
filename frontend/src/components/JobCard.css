@@ -1,0 +1,105 @@
+.job-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.job-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.job-card-header h3 {
+  color: #333;
+  font-size: 22px;
+  margin: 0;
+  flex: 1;
+}
+
+.job-type {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.job-type.fulltime {
+  background: #28a745;
+  color: white;
+}
+
+.job-type.parttime {
+  background: #ffc107;
+  color: #333;
+}
+
+.job-type.contract {
+  background: #17a2b8;
+  color: white;
+}
+
+.job-type.internship {
+  background: #6f42c1;
+  color: white;
+}
+
+.job-type.remote {
+  background: #fd7e14;
+  color: white;
+}
+
+.job-card-body {
+  margin-bottom: 20px;
+}
+
+.job-card-body p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.company {
+  color: #667eea !important;
+  font-size: 18px;
+}
+
+.location,
+.salary {
+  font-size: 15px;
+}
+
+.category {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.badge {
+  background: #e9ecef;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+  color: #495057;
+  font-weight: 500;
+}
+
+.description {
+  color: #777;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.job-card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
